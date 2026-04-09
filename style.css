@@ -1,0 +1,117 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5efe6; /* light cream */
+    text-align: center;
+    color: #5c4033; /* soft brown text */
+}
+
+/* HEADING */
+h1 {
+    color: #6f4e37;
+    margin-top: 10px;
+}
+
+/* SECTIONS */
+section {
+    background: #fff8f0; /* soft beige */
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* PROFILE IMAGE */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 4px solid #d2b48c; /* light brown */
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.profile-pic:hover {
+    transform: scale(1.08);
+}
+
+/* BUTTON BASE */
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+/* BUTTON COLORS (AESTHETIC BROWNS) */
+.linkedin {
+    background-color: #a67b5b;
+}
+
+.email {
+    background-color: #8b5e3c;
+}
+
+.whatsapp {
+    background-color: #6f4e37;
+}
+
+.copy {
+    background-color: #5c4033;
+}
+
+/* HOVER EFFECT */
+.btn:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+/* ICON SPACING */
+.btn i {
+    margin-right: 8px;
+}
+
+/* TEXT */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* LIST */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f0e6d6;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 8px;
+}
+/* MOBILE RESPONSIVE */
+@media (max-width: 600px) {
+
+    section {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+
+    .btn {
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+    }
+}
