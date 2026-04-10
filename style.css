@@ -71,28 +71,37 @@ section {
     border: none;
 }
 
-/* BUTTON COLORS (AESTHETIC BROWNS) */
+/* LIGHT → DARK AESTHETIC BROWN PALETTE */
+
 .linkedin {
-    background-color: #a67b5b;
+    background-color: #e6d3c3; /* very light beige brown */
+}
+
+.instagram {
+    background-color: #d6bfa9; /* soft pastel brown */
+}
+
+.github {
+    background-color: #cbb49c; /* warm light brown */
 }
 
 .email {
-    background-color: #8b5e3c;
+    background-color: #a67b5b; /* medium brown */
 }
 
 .whatsapp {
-    background-color: #6f4e37;
+    background-color: #8b5e3c; /* deeper brown */
 }
 
 .copy {
-    background-color: #5c4033;
+    background-color: #6f4e37; /* dark coffee brown */
+}
+.btn:hover {
+    opacity: 0.85;
+    transform: scale(1.05);
+    transition: 0.3s;
 }
 
-/* HOVER EFFECT */
-.btn:hover {
-    transform: scale(1.1);
-    opacity: 0.9;
-}
 
 /* ICON SPACING */
 .btn i {
@@ -153,13 +162,7 @@ li {
     color: #333;    /* Default color */
     text-decoration: none;
     transition: 0.3s;
-}.instagram {
-    background: #d6bfa9;
-}
 
-.github {
-    background: #cbb49c;
-}
 
 /* Specific Instagram Color on Hover */
 .social-links a.instagram:hover {
