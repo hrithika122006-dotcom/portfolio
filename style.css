@@ -1,4 +1,5 @@
-body {
+
+}body {
   font-family: 'Poppins', sans-serif;
   background-color: #f9f5f1;
   color: #4d3b2b;
@@ -152,6 +153,12 @@ li {
     color: #333;    /* Default color */
     text-decoration: none;
     transition: 0.3s;
+}.instagram {
+    background: #d6bfa9;
+}
+
+.github {
+    background: #cbb49c;
 }
 
 /* Specific Instagram Color on Hover */
