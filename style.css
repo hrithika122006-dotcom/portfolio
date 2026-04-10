@@ -146,4 +146,15 @@ li {
   color: #b5835a;
   transform: scale(1.3);
 }
+.social-links a {
+    font-size: 30px; /* Size of the icon */
+    margin: 10px;
+    color: #333;    /* Default color */
+    text-decoration: none;
+    transition: 0.3s;
+}
 
+/* Specific Instagram Color on Hover */
+.social-links a.instagram:hover {
+    color: #E1306C; 
+}
