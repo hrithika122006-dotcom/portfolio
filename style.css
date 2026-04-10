@@ -115,3 +115,15 @@ li {
         margin: 10px auto;
     }
 }
+.fa-instagram {
+  color: #c4975a; /* a pastel brown tone */
+  font-size: 28px;
+  margin: 10px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.fa-instagram:hover {
+  color: #b5835a;
+  transform: scale(1.3);
+}
+
